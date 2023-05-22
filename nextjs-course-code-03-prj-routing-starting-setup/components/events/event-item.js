@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function EventItem({ title, image, date, location, id }) {
   const humanReadableDate = new Date(date).toLocaleDateString("en-US", {
     day: "numeric",

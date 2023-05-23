@@ -11,7 +11,7 @@ export default function EventDetailPage() {
   const event = getEventById(eventId);
 
   if (!event) {
-    return <p>No event Found! </p>;
+    return <p>No event Found! test</p>;
   }
 
   return (

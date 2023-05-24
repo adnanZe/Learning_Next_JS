@@ -2,7 +2,7 @@ import { useRef } from "react";
 import Button from "../ui/buttons";
 import classes from "./events-search.module.css";
 
-export default function EventList({ onSearch }) {
+export default function EventsSearch({ onSearch }) {
   const yearInputRef = useRef();
   const monthInputRef = useRef();
 

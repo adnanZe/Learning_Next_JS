@@ -1,1 +1,8 @@
-export default function HomePage() {}
+export default function HomePage() {
+  return (
+    <>
+      <Hero />
+      <FeaturedPosts />
+    </>
+  );
+}

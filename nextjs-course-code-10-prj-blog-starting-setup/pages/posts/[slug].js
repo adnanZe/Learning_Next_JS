@@ -19,7 +19,7 @@ export function getStaticProps(context) {
   };
 }
 
-export function getStaticPath() {
+export function getStaticPaths() {
   const postFilesNames = getPostsFiles();
 
   const slugs = postFilesNames.map((filename) => filename.replace(/\.md$/, ""));
